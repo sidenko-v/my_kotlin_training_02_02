@@ -13,7 +13,7 @@ fun main() {
     var word: String = ""
 
 
-    if ((likes - 1) % 10 == 0) {
+    if ((likes % 10 == 1 && likes % 100 != 11) {
         word = wordForNumberEndsWithOne
     } else {
         word = wordForNumberDoesNotEndWithOne
